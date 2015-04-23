@@ -1,9 +1,12 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- LoadPreplanning.lua
--- v1.27.0_0
+-- v1.31.0_0
 
 function MElement(sp_melementtype, sp_id)
-	managers.preplanning:reserve_mission_element(sp_melementtype, sp_id)
+	local lockData = tweak_data:get_raw_value("preplanning", "types", sp_melementtype, "upgrade_lock") or false
+	if not lockData or managers.player:has_category_upgrade(lockData.category, lockData.upgrade) then
+		managers.preplanning:reserve_mission_element(sp_melementtype, sp_id)
+	end
 end
 
 function Vote(sp_votetype, sp_id)
