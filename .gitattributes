@@ -1,6 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text eol=crlf
 
-# Lua files should be normalized and converted
-# to native line endings on checkout.
 *.lua text
