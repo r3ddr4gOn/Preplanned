@@ -1,6 +1,6 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- LoadPreplanning.lua
--- v1.31.0_0
+-- v1.31.0_1
 
 function MElement(sp_melementtype, sp_id)
 	local lockData = tweak_data:get_raw_value("preplanning", "types", sp_melementtype, "upgrade_lock") or false
