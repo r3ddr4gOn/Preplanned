@@ -1,9 +1,12 @@
-﻿Preplanned v1.31.0_1 - By ThatGuyFromBreakingBad
+﻿Preplanned v1.34.3_0 - By ThatGuyFromBreakingBad
 These two scripts allow you to save and load *your own* choices and votes for the preplanning in Payday 2.
 Get support and updates on http://steamcommunity.com/app/218620/discussions/15/617329920704125108/
 For source code, visit https://github.com/thatguyfrombb/Preplanned/
 
 Changelog:
+	- v1.34.3_0, 12 Jun 2015:
+		- Added SYSTEM notification on saving and loading. Won't show on CRIME.NET OFFLINE.
+	
 	- v1.31.0_1, 24 Apr 2015:
 		- Fixed line endings. Forced to CRLF (Windows). No functional changes.
 	
