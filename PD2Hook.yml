@@ -14,8 +14,14 @@ Config:
 #  - [VK_F11, '']
 KeyBindings:
 # Preplanned - Load and save preplanning selections
-  - [VK_F6, scripts\SavePreplanning.lua]
-  - [VK_F9, scripts\LoadPreplanning.lua]
+  - [VK_F4, scripts\ClearAllPreplanning.lua]
+  - [VK_F5, scripts\ClearPreplanning.lua]
+  - [VK_F6, scripts\SavePreplanning1.lua]
+  - [VK_F7, scripts\SavePreplanning2.lua]
+  - [VK_F8, scripts\SavePreplanning3.lua]
+  - [VK_F9, scripts\LoadPreplanning1.lua]
+  - [VK_F10, scripts\LoadPreplanning2.lua]
+  - [VK_F11, scripts\LoadPreplanning3.lua]
 #Persist scripts are optional, if you don't know what they are, remove/comment the entire section below.
 #PostRequireScripts are optional too, see the README for what their purpose is. comment it out otherwise.
 #CloseScripts are again, optional, see the README, yadda yadda.
