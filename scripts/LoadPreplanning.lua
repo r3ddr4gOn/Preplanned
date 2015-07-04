@@ -1,7 +1,7 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- Modified by r3ddr4gOn
 -- LoadPreplanning.lua
--- v2
+-- v3
 
 function MElement(sp_melementtype, sp_id)
 	local lockData = tweak_data:get_raw_value("preplanning", "types", sp_melementtype, "upgrade_lock") or false
@@ -15,7 +15,11 @@ function Vote(sp_votetype, sp_id)
 end
 
 function MAsset(sp_id)
-	managers.assets:unlock_asset(sp_id)
+	if managers.assets:is_asset_unlockable(sp_id) then
+		managers.assets:unlock_asset(sp_id)
+	else
+		managers.chat:feed_system_message(ChatManager.GAME, "Preplanned: Couldn't unlock " .. sp_id)
+	end
 end
 
 function sp_format_slot_num(slot_num)
