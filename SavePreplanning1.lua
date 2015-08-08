@@ -1,7 +1,7 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- Modified by r3ddr4gOn
 -- SavePreplanning1.lua
--- v2
+-- v3
 
 sp_slot_num = 1
-dofile("scripts/SavePreplanning.lua")
+dofile("mods/preplanned/SavePreplanning.lua")

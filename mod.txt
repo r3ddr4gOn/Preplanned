@@ -1,0 +1,81 @@
+{
+	"name" : "Preplanning Saver",
+	"description" : "Preplanning Saver with 3 Slots",
+	"author" : "r3ddr4gOn",
+	"contact" : "https://github.com/r3ddr4gOn/",
+	"version" : "3",
+	"keybinds" : [
+	{
+        "keybind_id" : "keybind_preclearall",
+        "name" : "Preplanned: clear all items",
+        "description" : "Preplanned: clear everything",
+        "script_path" : "ClearAllPreplanning.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+	{
+        "keybind_id" : "keybind_preclearown",
+        "name" : "Preplanned: clear own items",
+        "description" : "Preplanned: clear own items",
+        "script_path" : "ClearPreplanning.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+    {
+        "keybind_id" : "keybind_presave_1",
+        "name" : "Preplanned: save to slot 1",
+        "description" : "Preplanned: save to slot 1",
+        "script_path" : "SavePreplanning1.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+	{
+        "keybind_id" : "keybind_presave_2",
+        "name" : "Preplanned: save to slot 2",
+        "description" : "Preplanned: save to slot 2",
+        "script_path" : "SavePreplanning2.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+	{
+        "keybind_id" : "keybind_presave_3",
+        "name" : "Preplanned: save to slot 3",
+        "description" : "Preplanned: save to slot 3",
+        "script_path" : "SavePreplanning3.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+    {
+        "keybind_id" : "keybind_preload_1",
+        "name" : "Preplanned: load from slot 1",
+        "description" : "Preplanned: load from slot 1",
+        "script_path" : "LoadPreplanning1.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+	{
+        "keybind_id" : "keybind_preload_2",
+        "name" : "Preplanned: load from slot 2",
+        "description" : "Preplanned: load from slot 2",
+        "script_path" : "LoadPreplanning2.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    },
+	{
+        "keybind_id" : "keybind_preload_3",
+        "name" : "Preplanned: load from slot 3",
+        "description" : "Preplanned: load from slot 3",
+        "script_path" : "LoadPreplanning3.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localized" : false
+    }
+	]
+}

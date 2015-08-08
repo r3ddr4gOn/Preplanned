@@ -1,7 +1,7 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- Modified by r3ddr4gOn
 -- ClearPreplanning.lua
--- v2
+-- v3
 
 function sp_chat_message(message)
 	if managers.chat then

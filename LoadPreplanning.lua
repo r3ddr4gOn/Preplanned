@@ -32,7 +32,7 @@ end
 
 if managers.preplanning and managers.assets and managers.job and managers.network then
 	local sp_current_level_id =  managers.job:current_real_job_id() .. "_" .. managers.job:current_level_id()
-	dofile("preplanning/" .. sp_current_level_id .. sp_format_slot_num(sp_slot_num) .. ".lua")
+	dofile("mods/preplanned/preplanning/" .. sp_current_level_id .. sp_format_slot_num(sp_slot_num) .. ".lua")
 	if managers.chat then
         managers.chat:feed_system_message(ChatManager.GAME, "Preplanned: Loaded from Slot " .. sp_slot_num)
     end

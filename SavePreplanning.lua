@@ -1,6 +1,6 @@
 -- Preplanned - By ThatGuyFromBreakingBad
 -- SavePreplanning.lua
--- v2
+-- v3
 
 function sp_formatString(sp_value)
 	if type(sp_value) == "string" then
@@ -41,7 +41,7 @@ if managers.preplanning and managers.assets and managers.job and managers.networ
 	local sp_current_level_id = managers.job:current_real_job_id() .. "_" .. managers.job:current_level_id()
     if sp_current_level_id and sp_peer_id then
 	    local sp_endl = "\n"
-	    local sp_file = io.open("preplanning/" .. sp_current_level_id .. sp_format_slot_num(sp_slot_num) .. ".lua", "w")
+	    local sp_file = io.open("mods/preplanned/preplanning/" .. sp_current_level_id .. sp_format_slot_num(sp_slot_num) .. ".lua", "w")
 				
         local sp_reserved_mission_elements = managers.preplanning._reserved_mission_elements
 
